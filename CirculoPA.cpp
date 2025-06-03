@@ -1,3 +1,5 @@
+//calcula el perimetro y el area de un circulo
+//Astrid Alejandra Bustos Garcia
 #include <stdio.h>
 #include <math.h>
 
