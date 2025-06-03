@@ -1,3 +1,5 @@
+//lee un archivo de una carpeta
+//Astrid Alejandra Bustos Garcia
 #include <iostream>
 #include <fstream>
 #include <string>
