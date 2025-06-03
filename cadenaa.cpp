@@ -1,4 +1,6 @@
- #include <iostream>
+//ingresa una cadena 
+//Astrid Alejandra Bustos Garcia
+#include <iostream>
 using namespace std;
 
 int main() {
