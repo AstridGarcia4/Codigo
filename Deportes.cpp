@@ -1,3 +1,5 @@
+//muestra los tipos de deportes su nombre, el tipo de balor que utiliza y una descripcion
+//Astrid Alejandra Bustos Garcia
 #include <iostream>
 using namespace std;
 
