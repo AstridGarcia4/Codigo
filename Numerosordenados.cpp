@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
-    int a[10], i, j, temp;
+    double a[10];
+    int i, j;
+    double temp;
 
     // Leer los 10 números
     for (i = 0; i < 10; i++) {
@@ -11,12 +13,12 @@ int main() {
     }
 
     // Ordenar (método burbuja simple)
-    for (i = 0; i < 10; i++) {
-        for (j = i + 1; j < 10; j++) {
-            if (a[i] > a[j]) {
-                temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
+    for (i = 0; i < 9; i++) {
+        for (j = 0; j < 9 - i; j++) {
+            if (a[j] > a[j + 1]) {
+                temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
             }
         }
     }
@@ -27,6 +29,7 @@ int main() {
         cout << a[i] << " ";
     }
 
+    cout << endl;
     return 0;
 }
 
