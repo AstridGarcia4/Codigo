@@ -1,3 +1,5 @@
+//calcula lo ahorrado con un deposito mensual de 10000
+//Astrid Alejandra Bustos Garcia
 #include <iostream>
 #include <cmath>
 using namespace std;
