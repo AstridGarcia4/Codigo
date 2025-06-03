@@ -1,3 +1,5 @@
+//Calcula el perimetro y area de un circulo utilizando clases
+//Astrid Alejandra Bustos Garcia
 #include <iostream>
 #include <cmath>
 #include <cstdio>
@@ -31,7 +33,7 @@ int main() {
     printf("Dame el radio: ");
     scanf("%f", &radio);
 
-    // Limpiar buffer del enter antes de leer un car·cter
+    // Limpiar buffer del enter antes de leer un car√°cter
     while (getchar() != '\n');
 
     printf("Ingresa 'p' para calcular perimetro o 'a' para calcular area: ");
