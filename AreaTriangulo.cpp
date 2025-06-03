@@ -1,3 +1,4 @@
+//calcula area de un triangulo
 #include <iostream>
 
 int main(){
