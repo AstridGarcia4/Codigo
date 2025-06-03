@@ -1,3 +1,4 @@
+//muestra tipos de animales su color, especie, cuantas patas tiene 
 #include <iostream>
 #include <string>
 using namespace std;
