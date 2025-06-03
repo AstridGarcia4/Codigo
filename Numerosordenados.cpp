@@ -1,3 +1,5 @@
+//ordena los numeros de manera ascendente 
+//Astrid Alejandra Bustos Garcia
 #include <iostream>
 using namespace std;
 
@@ -6,13 +8,13 @@ int main() {
     int i, j;
     double temp;
 
-    // Leer los 10 números
+    // Leer los 10 nÃºmeros
     for (i = 0; i < 10; i++) {
         cout << "Numero " << i + 1 << ": ";
         cin >> a[i];
     }
 
-    // Ordenar (método burbuja simple)
+    // Ordenar (mÃ©todo burbuja simple)
     for (i = 0; i < 9; i++) {
         for (j = 0; j < 9 - i; j++) {
             if (a[j] > a[j + 1]) {
@@ -23,7 +25,7 @@ int main() {
         }
     }
 
-    // Mostrar los números ordenados
+    // Mostrar los nÃºmeros ordenados
     cout << "\nNumeros ordenados:\n";
     for (i = 0; i < 10; i++) {
         cout << a[i] << " ";
